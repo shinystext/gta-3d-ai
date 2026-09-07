@@ -14,13 +14,127 @@ Ask an agent for a café, a sheriff office, a street market, or suitable props w
 
 The pictures below are examples from our wider AI-assisted Blender CLI workflow, using native assets and custom geometry. They show the kind of work asset discovery supports. **This repository does not include their scene generators or downloadable game assets, and search alone did not create these scenes.**
 
+**[Quick start](#install-and-try-it-without-gta) · [Agent guide](AGENTS.md) · [Blender CLI guide](docs/blender-cli.md)**
+
+## Showcase
+
+Click any image to inspect it at a larger size. Scene views below are captured in **Ariane**; vehicle and early project previews are rendered in **Blender**.
+
+### Mariachi Plaza — a real place reimagined in Los Santos
+
+A Los Angeles landmark interpreted in the San Andreas style and placed in the existing city. **Ariane viewport captures**, showing the plaza in its surrounding map and the day/night prelight.
+
+| Plaza in the city — day | Kiosco — day |
+| --- | --- |
+| ![Plaza in the city — day](docs/images/showcase/02-mariachi--07-day-overview.jpg) | ![Kiosco — day](docs/images/showcase/02-mariachi--08-day-kiosco.jpg) |
+
+| Plaza — night | Kiosco — night |
+| --- | --- |
+| ![Plaza — night](docs/images/showcase/02-mariachi--01-night-overview.jpg) | ![Kiosco — night](docs/images/showcase/02-mariachi--02-night-kiosco.jpg) |
+
+| Lit pavilion interior | Street-level context |
+| --- | --- |
+| ![Lit pavilion interior](docs/images/showcase/02-mariachi--05-night-interior.jpg) | ![Street-level context](docs/images/showcase/02-mariachi--06-night-street.jpg) |
+
+### Grove Street — night market
+
+An existing neighborhood filled with custom stalls, reused props, signs and lighting. **Ariane viewport captures**; the populated Blender presentation is separate.
+
+| Grove Street after dark | Market in daylight |
+| --- | --- |
+| ![Grove Street after dark](docs/images/showcase/01-grove-market--01-night-overview.jpg) | ![Market in daylight](docs/images/showcase/01-grove-market--08-day-overview.jpg) |
+
+| Grill stall | Fresh produce |
+| --- | --- |
+| ![Grill stall](docs/images/showcase/01-grove-market--03-grill.jpg) | ![Fresh produce](docs/images/showcase/01-grove-market--04-fresh-produce.jpg) |
+
+| Vinyl and tapes | Bakery stall |
+| --- | --- |
+| ![Vinyl and tapes](docs/images/showcase/01-grove-market--05-vinyl.jpg) | ![Bakery stall](docs/images/showcase/01-grove-market--06-bakery.jpg) |
+
+### Vehicle conversions — LAST STOP and Sultan police
+
+A bus turned into a food truck, a matching delivery scooter with modeled burger branding, and a Sultan adapted into an LSPD patrol car. **Blender renders**; the LAST STOP views include the later burger iterations.
+
+| Bus converted into a food truck | Food truck — rear view |
+| --- | --- |
+| ![Bus converted into a food truck](docs/images/showcase/bus-food-truck--revisions--v3-burger--after-burger.jpg) | ![Food truck — rear view](docs/images/showcase/bus-food-truck--revisions--v3-burger--after-rear.jpg) |
+
+| Matching delivery scooter | Sultan police |
+| --- | --- |
+| ![Matching Pizzaboy delivery scooter](docs/images/showcase/last-stop-pizzaboy--revisions--v2-burger--after-burger.jpg) | ![Sultan converted into an LSPD patrol car](docs/images/showcase/video-assistant--sultan--09.jpg) |
+
+### Sultan cabriolet and Elegy racing
+
+Different transformations of existing cars: an open cabin and a racing build with bodywork and livery changes. **Blender renders**.
+
+| Sultan cabriolet | Open cabin detail |
+| --- | --- |
+| ![Sultan cabriolet](docs/images/showcase/sultan-cabriolet--after-hero.jpg) | ![Open cabin detail](docs/images/showcase/sultan-cabriolet--export-reread-interior.jpg) |
+
+| Elegy racing | Elegy — rear and wing |
+| --- | --- |
+| ![Elegy racing](docs/images/showcase/elegy-racing--after-hero.jpg) | ![Elegy — rear and wing](docs/images/showcase/elegy-racing--after-rear.jpg) |
+
+### Employment agency — opening an existing building
+
+An accessible agency on the upper terrace of an existing Los Santos building, with reception and furnished offices. **Ariane viewport captures**.
+
+| Upper-terrace entrance | Reception |
+| --- | --- |
+| ![Upper-terrace entrance](docs/images/showcase/03-employment--01-terrace.jpg) | ![Reception](docs/images/showcase/03-employment--03-reception.jpg) |
+
+| Adviser desks | Office equipment |
+| --- | --- |
+| ![Adviser desks](docs/images/showcase/03-employment--04-advisers.jpg) | ![Office equipment](docs/images/showcase/03-employment--07-office-equipment.jpg) |
+
+### CJ’s house — extending the original interior
+
+A new staircase and additional floor connected to the original house. **Ariane viewport captures**, retaining the interior’s subdued lighting.
+
+| New staircase | New upper hallway |
+| --- | --- |
+| ![New staircase](docs/images/showcase/04-cj-house--04-new-staircase.jpg) | ![New upper hallway](docs/images/showcase/04-cj-house--06-new-upper-hall.jpg) |
+
+| Study | Bedroom |
+| --- | --- |
+| ![Study](docs/images/showcase/04-cj-house--07-study.jpg) | ![Bedroom](docs/images/showcase/04-cj-house--08-bedroom.jpg) |
+
+<details>
+<summary><strong>More police vehicles — 8 additional renders</strong></summary>
+
+### More police conversions
+
+A selection from the additional LSPD vehicle conversions. **Blender renders**.
+
+| Buffalo | Bullet |
+| --- | --- |
+| ![Buffalo](docs/images/showcase/police-vehicle-batch--buffalo--front.jpg) | ![Bullet](docs/images/showcase/police-vehicle-batch--bullet--front.jpg) |
+
+| Cheetah | Flash |
+| --- | --- |
+| ![Cheetah](docs/images/showcase/police-vehicle-batch--cheetah--front.jpg) | ![Flash](docs/images/showcase/police-vehicle-batch--flash--front.jpg) |
+
+| Infernus | Jester |
+| --- | --- |
+| ![Infernus](docs/images/showcase/police-vehicle-batch--infernus--front.jpg) | ![Jester](docs/images/showcase/police-vehicle-batch--jester--front.jpg) |
+
+| Turismo | Uranus |
+| --- | --- |
+| ![Turismo](docs/images/showcase/police-vehicle-batch--turismo--front.jpg) | ![Uranus](docs/images/showcase/police-vehicle-batch--uranus--front.jpg) |
+
+</details>
+
+### Earlier builds — kiosks, shops and interiors
+
+**Blender renders** from the first workflow demos.
+
 | Street kiosk | Open 24/7 convenience store |
 | --- | --- |
 | ![Papercuts street kiosk, rendered in Blender](docs/images/street-kiosk.png) | ![Open 24/7 convenience store, rendered in Blender](docs/images/247-store.png) |
 | Coffee shop | LSSD interior |
 | ![The Daily Grind café, rendered in Blender](docs/images/coffee-shop.png) | ![Sheriff reception, rendered in Blender](docs/images/lssd.png) |
-| Grove Street night market | Open-world employment agency |
-| ![Night market with reused street props](docs/images/grove-market.png) | ![Employment agency on the upper terrace](docs/images/employment-agency.png) |
+Traffic-node authoring is available in the companion project [GTA SA Traffic](https://github.com/Dryxio/gta-sa-traffic), with its own Blender and map screenshots.
 
 The public project is named **GTA 3D AI**. For compatibility, the Python distribution remains `gta-asset-search` and existing `asset-catalog*` commands are unchanged.
 
