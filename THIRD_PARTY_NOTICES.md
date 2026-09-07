@@ -16,4 +16,4 @@ Separately installed dependencies retain their own licenses:
 
 These dependencies and model weights are not vendored. Their transitive packages retain their respective notices. Installing/copying/distributing a combined Blender/DragonFF environment requires respecting its GPL terms; this repository's MIT license does not relicense them.
 
-The four README screenshots are renders of author-directed modding scenes created with Blender CLI and a mixture of original geometry and user-provided GTA content. Native game content visible in them belongs to its respective rights holders. The images illustrate the workflow; no game assets, game executable, annotation dataset or scene files are provided. No affiliation or endorsement is implied.
+The six README screenshots are renders of author-directed modding scenes created with Blender CLI and a mixture of original geometry and user-provided GTA content. Native game content visible in them belongs to its respective rights holders. The images illustrate the workflow; no game assets, game executable, annotation dataset or scene files are provided. No affiliation or endorsement is implied.

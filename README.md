@@ -1,4 +1,6 @@
-# GTA Asset Search
+# GTA 3D AI
+
+**Find GTA assets. Build with AI and Blender.**
 
 **Early alpha — work in progress.** Local, evidence-backed asset discovery for GTA modding with humans and AI agents. Search filenames and metadata, inspect visual packets, describe what you actually see, then retrieve those descriptions with optional multilingual text embeddings.
 
@@ -12,19 +14,23 @@ Ask an agent for a café, a sheriff office, a street market, or suitable props w
 
 The pictures below are examples from our wider AI-assisted Blender CLI workflow, using native assets and custom geometry. They show the kind of work asset discovery supports. **This repository does not include their scene generators or downloadable game assets, and search alone did not create these scenes.**
 
-| Coffee shop | LSSD interior |
+| Street kiosk | Open 24/7 convenience store |
 | --- | --- |
+| ![Papercuts street kiosk, rendered in Blender](docs/images/street-kiosk.png) | ![Open 24/7 convenience store, rendered in Blender](docs/images/247-store.png) |
+| Coffee shop | LSSD interior |
 | ![The Daily Grind café, rendered in Blender](docs/images/coffee-shop.png) | ![Sheriff reception, rendered in Blender](docs/images/lssd.png) |
 | Grove Street night market | Open-world employment agency |
 | ![Night market with reused street props](docs/images/grove-market.png) | ![Employment agency on the upper terrace](docs/images/employment-agency.png) |
+
+The public project is named **GTA 3D AI**. For compatibility, the Python distribution remains `gta-asset-search` and existing `asset-catalog*` commands are unchanged.
 
 ## Install and try it without GTA
 
 Python **3.12 recommended**, Python 3.10+ supported by the core. SQLite must include FTS5. No server, SSH access, paid API key, or Blender installation is needed for this toy demo.
 
 ```sh
-git clone https://github.com/Dryxio/gta-asset-search.git
-cd gta-asset-search
+git clone https://github.com/Dryxio/gta-3d-ai.git
+cd gta-3d-ai
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
@@ -84,7 +90,7 @@ Already have a catalogue? Supply the [documented JSON layout](docs/catalog-schem
 
 Our earlier local campaign indexed 50,017 entries (16,838 models including extra mod entries, and 33,179 texture occurrences). Its first enrichment checkpoint passed with 1,730 usable direct visual descriptions at that historical snapshot. **Those data and annotations are not distributed, those counts are not a standard vanilla-game inventory, and that checkpoint does not establish exhaustive recall.**
 
-The public [issues](https://github.com/Dryxio/gta-asset-search/issues) track:
+The public [issues](https://github.com/Dryxio/gta-3d-ai/issues) track:
 
 - Independent relevance / missed-candidate evaluation (CP1).
 - End-to-end scale, interruption recovery, freshness, throughput and storage validation (CP3).

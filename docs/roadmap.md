@@ -11,4 +11,4 @@ These criteria preserve the original SA campaign's intent. Public contributors w
 
 The corresponding GitHub issues are the public task ledger. Packaging does not close any visual coverage checkpoint.
 
-Public tracking: [CP1 #1](https://github.com/Dryxio/gta-asset-search/issues/1), [CP3 #2](https://github.com/Dryxio/gta-asset-search/issues/2), [CP4 #3](https://github.com/Dryxio/gta-asset-search/issues/3), [CP5 #4](https://github.com/Dryxio/gta-asset-search/issues/4), [future CP6 #5](https://github.com/Dryxio/gta-asset-search/issues/5).
+Public tracking: [CP1 #1](https://github.com/Dryxio/gta-3d-ai/issues/1), [CP3 #2](https://github.com/Dryxio/gta-3d-ai/issues/2), [CP4 #3](https://github.com/Dryxio/gta-3d-ai/issues/3), [CP5 #4](https://github.com/Dryxio/gta-3d-ai/issues/4), [future CP6 #5](https://github.com/Dryxio/gta-3d-ai/issues/5).
