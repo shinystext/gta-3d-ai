@@ -10,3 +10,5 @@ These criteria preserve the original SA campaign's intent. Public contributors w
 - **CP6 — Later expansion.** VC/III source adapters and evidence-backed validation, new-asset maintenance and source watcher/import workflows. Outside the original SA campaign, not a prerequisite for the alpha.
 
 The corresponding GitHub issues are the public task ledger. Packaging does not close any visual coverage checkpoint.
+
+Public tracking: [CP1 #1](https://github.com/Dryxio/gta-asset-search/issues/1), [CP3 #2](https://github.com/Dryxio/gta-asset-search/issues/2), [CP4 #3](https://github.com/Dryxio/gta-asset-search/issues/3), [CP5 #4](https://github.com/Dryxio/gta-asset-search/issues/4), [future CP6 #5](https://github.com/Dryxio/gta-asset-search/issues/5).
