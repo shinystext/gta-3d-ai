@@ -1,5 +1,7 @@
 # GTA 3D AI
 
+**[Join the Discord community →](https://discord.gg/mgFRd2AzF8)**
+
 **Find GTA assets. Build with AI and Blender.**
 
 **Early alpha — work in progress.** Local, evidence-backed asset discovery for GTA modding with humans and AI agents. Search filenames and metadata, inspect visual packets, describe what you actually see, then retrieve those descriptions with optional multilingual text embeddings.
