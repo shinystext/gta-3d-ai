@@ -216,6 +216,10 @@ The public [issues](https://github.com/Dryxio/gta-3d-ai/issues) track:
 
 See [roadmap criteria](docs/roadmap.md), [validation](docs/validation.md), and [architecture / costs](docs/architecture.md).
 
+The [CP1 evaluation CLI and independent-review protocol](docs/evaluation.md) now
+capture reproducible local benchmarks. The [2026-09-08 real rerun](docs/reports/cp1-2026-09-08.md)
+finds 5 of 22 independently known candidates in the semantic top 30; CP1 remains open.
+
 ## Tests
 
 ```sh

@@ -1,5 +1,12 @@
 # Alpha validation
 
+CP1 evaluation work validated on 2026-09-08: **194 Python tests passed**, including
+the opt-in real pinned encoder test, plus **2 Node tests passed**. The 27 new
+evaluator tests use original synthetic images. A non-editable package installation
+exposes `asset-catalog-evaluate`; a separate real 24-query capture reproduces the
+baseline top 30 exactly. The [real relevance report](reports/cp1-2026-09-08.md)
+fails CP1's recall threshold and leaves final visual precision unmeasured.
+
 Initial extraction validated on 2026-09-07:
 
 - Python 3.12, clean isolated environment: **167 tests, 166 passed, 1 optional pretrained-model test skipped**. Synthetic fixtures cover catalogue import/rollback, stale images/vectors, same-name texture collisions, query constraints, review races/revisions, pixel transfers, campaign resume and source adapter bounds.
