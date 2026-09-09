@@ -1,8 +1,8 @@
-# GTA 3D AI
+# GTA Scout
 
 **[Join the Discord community →](https://discord.gg/mgFRd2AzF8)**
 
-**Find GTA assets. Build with AI and Blender.**
+**Find the right GTA models and textures for your next creation.**
 
 **Early alpha — work in progress.** Local, evidence-backed asset discovery for GTA modding with humans and AI agents. Search filenames and metadata, inspect visual packets, describe what you actually see, then retrieve those descriptions with optional multilingual text embeddings.
 
@@ -146,9 +146,9 @@ A selection from the additional LSPD vehicle conversions. **Blender renders**.
 | ![Papercuts street kiosk, rendered in Blender](docs/images/street-kiosk.png) | ![Open 24/7 convenience store, rendered in Blender](docs/images/247-store.png) |
 | Coffee shop | LSSD interior |
 | ![The Daily Grind café, rendered in Blender](docs/images/coffee-shop.png) | ![Sheriff reception, rendered in Blender](docs/images/lssd.png) |
-Traffic-node authoring is available in the companion project [GTA SA Traffic](https://github.com/Dryxio/gta-sa-traffic), with its own Blender and map screenshots.
+Traffic-node authoring is available in the companion project [GTA Flow](https://github.com/Dryxio/gta-sa-traffic), with its own Blender and map screenshots.
 
-The public project is named **GTA 3D AI**. For compatibility, the Python distribution remains `gta-asset-search` and existing `asset-catalog*` commands are unchanged.
+The public project is named **GTA Scout**. For compatibility, the Python distribution remains `gta-asset-search` and existing `asset-catalog*` commands are unchanged.
 
 ## Manual setup
 
