@@ -8,6 +8,16 @@
 
 This is not a bundled GTA dataset, an image-recognition service, or a one-click scene generator. You supply your own local game files and an agent/human capable of inspecting images. Blender CLI stays the rendering and building workflow.
 
+## Get started with your AI
+
+**Give your AI this repo and tell it what you want to do.** It can check your setup, install the tools it needs, and walk you through anything that needs your help. Use an AI coding agent that can access files and run commands on your computer.
+
+Copy this into your agent:
+
+> Help me set up https://github.com/Dryxio/gta-3d-ai. Read the README and agent guide, check what's already installed on my computer, and help me install what's missing, including the Blender tools for this task. Ask me where my GTA San Andreas files are if you need them. Then find a wooden crate from the game, show me a rendered preview, and use it in a small scene in Blender. Save the scene and a preview image.
+
+You'll need your own classic PC San Andreas files for game assets. Just trying the tool? Ask your agent to run the included demo first; it needs neither GTA nor Blender.
+
 ## What this enables
 
 Ask an agent for a café, a sheriff office, a street market, or suitable props without relying only on obscure filenames. The useful loop is:
@@ -16,7 +26,7 @@ Ask an agent for a café, a sheriff office, a street market, or suitable props w
 
 The pictures below are examples from our wider AI-assisted Blender CLI workflow, using native assets and custom geometry. They show the kind of work asset discovery supports. **This repository does not include their scene generators or downloadable game assets, and search alone did not create these scenes.**
 
-**[Quick start](#install-and-try-it-without-gta) · [Agent guide](AGENTS.md) · [Blender CLI guide](docs/blender-cli.md)**
+**[Get started with your AI](#get-started-with-your-ai) · [Manual setup](#manual-setup) · [Agent guide](AGENTS.md) · [Blender CLI guide](docs/blender-cli.md)**
 
 ## Showcase
 
@@ -140,6 +150,13 @@ Traffic-node authoring is available in the companion project [GTA SA Traffic](ht
 
 The public project is named **GTA 3D AI**. For compatibility, the Python distribution remains `gta-asset-search` and existing `asset-catalog*` commands are unchanged.
 
+## Manual setup
+
+Prefer to install it yourself? Expand the instructions below.
+
+<details>
+<summary>Manual installation, configuration and examples</summary>
+
 ## Install and try it without GTA
 
 Python **3.12 recommended**, Python 3.10+ supported by the core. SQLite must include FTS5. No server, SSH access, paid API key, or Blender installation is needed for this toy demo.
@@ -190,6 +207,8 @@ The adapter reads active IDE declarations in `data/gta.dat`, `data/default.ide`,
 Already have a catalogue? Supply the [documented JSON layout](docs/catalog-schema.md) with `build --root`. Namespaces support `sa`, `vc`, and `gta3`; full VC/III source adapters and validation are future work.
 
 **A fresh installation starts without our local annotations.** Render a bounded batch and have an agent/human review it before expecting useful visual semantic retrieval. See the [agent guide](AGENTS.md) and [Blender CLI workflow](docs/blender-cli.md).
+
+</details>
 
 ## What works in this alpha
 
