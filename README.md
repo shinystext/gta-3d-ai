@@ -14,7 +14,7 @@ This is not a bundled GTA dataset, an image-recognition service, or a one-click 
 
 Copy this into your agent:
 
-> Help me set up https://github.com/Dryxio/gta-3d-ai. Read the README and agent guide, check what's already installed on my computer, and help me install what's missing, including the Blender tools for this task. Ask me where my GTA San Andreas files are if you need them. Then find a wooden crate from the game, show me a rendered preview, and use it in a small scene in Blender. Save the scene and a preview image.
+> Help me set up https://github.com/Dryxio/gta-scout. Read the README and agent guide, check what's already installed on my computer, and help me install what's missing, including the Blender tools for this task. Ask me where my GTA San Andreas files are if you need them. Then find a wooden crate from the game, show me a rendered preview, and use it in a small scene in Blender. Save the scene and a preview image.
 
 You'll need your own classic PC San Andreas files for game assets. Just trying the tool? Ask your agent to run the included demo first; it needs neither GTA nor Blender.
 
@@ -146,7 +146,7 @@ A selection from the additional LSPD vehicle conversions. **Blender renders**.
 | ![Papercuts street kiosk, rendered in Blender](docs/images/street-kiosk.png) | ![Open 24/7 convenience store, rendered in Blender](docs/images/247-store.png) |
 | Coffee shop | LSSD interior |
 | ![The Daily Grind café, rendered in Blender](docs/images/coffee-shop.png) | ![Sheriff reception, rendered in Blender](docs/images/lssd.png) |
-Traffic-node authoring is available in the companion project [GTA Flow](https://github.com/Dryxio/gta-sa-traffic), with its own Blender and map screenshots.
+Traffic-node authoring is available in the companion project [GTA Flow](https://github.com/Dryxio/gta-flow), with its own Blender and map screenshots.
 
 The public project is named **GTA Scout**. For compatibility, the Python distribution remains `gta-asset-search` and existing `asset-catalog*` commands are unchanged.
 
@@ -162,8 +162,8 @@ Prefer to install it yourself? Expand the instructions below.
 Python **3.12 recommended**, Python 3.10+ supported by the core. SQLite must include FTS5. No server, SSH access, paid API key, or Blender installation is needed for this toy demo.
 
 ```sh
-git clone https://github.com/Dryxio/gta-3d-ai.git
-cd gta-3d-ai
+git clone https://github.com/Dryxio/gta-scout.git
+cd gta-scout
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
@@ -225,7 +225,7 @@ Already have a catalogue? Supply the [documented JSON layout](docs/catalog-schem
 
 Our earlier local campaign indexed 50,017 entries (16,838 models including extra mod entries, and 33,179 texture occurrences). Its first enrichment checkpoint passed with 1,730 usable direct visual descriptions at that historical snapshot. **Those data and annotations are not distributed, those counts are not a standard vanilla-game inventory, and that checkpoint does not establish exhaustive recall.**
 
-The public [issues](https://github.com/Dryxio/gta-3d-ai/issues) track:
+The public [issues](https://github.com/Dryxio/gta-scout/issues) track:
 
 - Independent relevance / missed-candidate evaluation (CP1).
 - End-to-end scale, interruption recovery, freshness, throughput and storage validation (CP3).
