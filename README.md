@@ -2,11 +2,13 @@
 
 **[Join the Discord community →](https://discord.gg/mgFRd2AzF8)**
 
-**Find the right GTA models and textures for your next creation.**
+**Create GTA-style 3D models and scenes with your AI.**
 
-**Early alpha — work in progress.** Local, evidence-backed asset discovery for GTA modding with humans and AI agents. Search filenames and metadata, inspect visual packets, describe what you actually see, then retrieve those descriptions with optional multilingual text embeddings.
+Describe what you want to make: a street-food stand, a new shop interior, a custom car, or an entire street market. Give your AI access to GTA Scout and Blender so it can build with the game's own visual style.
 
-This is not a bundled GTA dataset, an image-recognition service, or a one-click scene generator. You supply your own local game files and an agent/human capable of inspecting images. Blender CLI stays the rendering and building workflow.
+GTA Scout helps your AI find and inspect models and textures from your GTA files. Your agent then uses Blender to combine them, modify existing models, and create new geometry — turning your idea into an editable 3D creation you can preview and refine through conversation.
+
+**Early alpha.** Works with an AI coding agent, Blender, and your own classic PC San Andreas files.
 
 ## Get started with your AI
 
@@ -14,17 +16,19 @@ This is not a bundled GTA dataset, an image-recognition service, or a one-click 
 
 Copy this into your agent:
 
-> Help me set up https://github.com/Dryxio/gta-scout. Read the README and agent guide, check what's already installed on my computer, and help me install what's missing, including the Blender tools for this task. Ask me where my GTA San Andreas files are if you need them. Then find a wooden crate from the game, show me a rendered preview, and use it in a small scene in Blender. Save the scene and a preview image.
+> Help me set up https://github.com/Dryxio/gta-scout. Read the README and agent guide, check what's already installed on my computer, and help me install what's missing, including the Blender tools for this task. Ask me where my GTA San Andreas files are if you need them. Then create a small street-food stand in the GTA San Andreas style. Find suitable game textures and props, model the stand in Blender, and save an editable .blend file with a rendered preview. Show me the result so we can refine it.
 
 You'll need your own classic PC San Andreas files for game assets. Just trying the tool? Ask your agent to run the included demo first; it needs neither GTA nor Blender.
 
-## What this enables
+## What you can create
 
-Ask an agent for a café, a sheriff office, a street market, or suitable props without relying only on obscure filenames. The useful loop is:
+- **New props and buildings:** model a kiosk, a storefront, or a small building using textures that fit the game.
+- **Custom vehicles:** turn an existing car into a police variant, a convertible, or a different build.
+- **Interiors and scenes:** furnish a shop, extend a room, or assemble a street market from game assets and new geometry.
 
-**Local assets → metadata index → rendered views → real visual descriptions → lexical / semantic shortlist → visual verification → Blender construction.**
+**Describe your idea → find the right assets with GTA Scout → build in Blender with your AI → preview and refine.**
 
-The pictures below are examples from our wider AI-assisted Blender CLI workflow, using native assets and custom geometry. They show the kind of work asset discovery supports. **This repository does not include their scene generators or downloadable game assets, and search alone did not create these scenes.**
+The showcase below comes from this wider AI-assisted Blender workflow. GTA Scout supplies asset discovery and inspection; your agent supplies the modeling scripts and uses Blender to create the result. The specific showcase generators and game assets are not included in this repository.
 
 **[Get started with your AI](#get-started-with-your-ai) · [Manual setup](#manual-setup) · [Agent guide](AGENTS.md) · [Blender CLI guide](docs/blender-cli.md)**
 
